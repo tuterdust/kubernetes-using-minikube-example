@@ -3,11 +3,11 @@
 ## Using minikube with .yaml config files
 
 ### Create pods
-minikube start
-kubectl create -f [yourfile]
+minikube start <br/>
+kubectl create -f [yourfile] 
 
 ### Check pods and services
-kubectl get pods
+kubectl get pods <br/>
 kubectl get services
 
 ### Open your service in the host
