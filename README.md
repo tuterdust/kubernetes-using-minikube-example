@@ -1,17 +1,17 @@
 # kubernetes-using-minikube-example
 
-##Using minikube with .yaml config files
+## Using minikube with .yaml config files
 
-###Create pods
+### Create pods
 minikube start
 kubectl create -f [yourfile]
 
-###Check pods and services
+### Check pods and services
 kubectl get pods
 kubectl get services
 
-###Open your service in the host
-####Get ip
+### Open your service in the host
+#### Get ip
 minikube ip
-####Open your service
+#### Open your service
 type ip of minikube:[nodePort] in browser
